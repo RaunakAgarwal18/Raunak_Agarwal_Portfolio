@@ -31,6 +31,9 @@ header{
 .nav-menu{
     transition: color 0.5s ;
 }
+.nav-menu li a{
+    transition: all 0.5s ease-in-out;
+}
 .nav-menu li a:hover{
     color: lightgrey;
     border-bottom: 1px solid white;
@@ -49,6 +52,7 @@ header{
 }
 .social-icons li a i:hover{
     box-shadow: 1px 1px 4px 6px rgba(230,196,196,0.2);
+    transform: scale(1.5);
 }
 .text-center{
     text-align: center;
@@ -184,7 +188,7 @@ section{
     width: 40%;
     min-height: 150px;
     border: 2px solid black;
-    background-color: azure;
+    background-color: lightgray;
 }
 .timeline-box:nth-child(2n){
     left: 53%;
